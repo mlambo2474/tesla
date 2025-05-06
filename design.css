@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+  font-size: 13px;
+  color:#444746;
+  font-family:  sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: black;
+}
+
+.head {
+  background: radial-gradient(circle, #f2e5c1, #eddbad, #e9d29b);
+}
+.head p {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.logo {
+  background-color: #fff;
+  opacity: 0.96;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+}
+.logo svg {
+  width: 150px;
+  height: 20.25;
+  padding: 20px;
+
+}
+.globe {
+  padding: 10px 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #393c41;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.img img {
+  width: 950px;
+  top: 0;
+  position: sticky;
+}
+.model {
+  width: 500px;
+  padding-right: 40px;
+  padding-left: 10px;
+ 
+}
+.model_name{
+  text-align: center;
+}
+.model_name p{
+  padding: 20px 0;
+}
+.speed{
+  display: flex;
+  justify-content: space-between;
+ margin-bottom: 20px;
+}
+.speed-limit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:14px;
+}
+.number{
+  font-size: 20px;
+}
+
+.nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+ border-bottom: 1px solid  #d8d5d5;
+}
+.nav span{
+  padding: 5px 0;
+}
+.range{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid gray;
+  margin: 15px 0 ;
+  background-color: #F4F4F4;
+}
+.features{
+  display: flex;
+  align-items: center;
+  background-color: #F4F4F4;
+  border-radius: 7px;
+}
+.features img{
+  width: 92px;
+  height: 68px;
+  border-bottom-left-radius:7px ;
+border-top-left-radius: 7px;
+}
+.features p{
+  padding: 0 100px 0 10px;
+}
+.features span{
+  font-size: 30px;
+}
+.checkbox{
+  padding: 15px 0;
+}
+.check-box input{
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.edits span{
+   margin-right: 10px;
+   text-decoration: underline;
+}
+.included{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+  margin-bottom: 50px;
+}
+
+.included p{
+  padding: 10px 0 ;
+  font-size: 20px;
+color: black;
+
+}
+.included span{
+  text-align: center;
+}
+.spheres img{
+width: 36px;
+height: 36px;
+margin: 10px 3px;
+}
+.tax{
+  display: flex;
+  justify-content: space-between; 
+width: 100%;
+  padding: 15px 10px;
+  margin-bottom: 10px ;
+  border: 7px;
+  border: 1px solid  gray;
+}
+
+.left{
+padding-left: 70px;
+}
+.video{
+  display:flex;
+  background-color:#F4F4F4;
+ width: 100%;
+ border-radius: 7px;
+ margin-bottom:50px;
+}
+.video img{
+width: 115px;
+height: 87px;
+border-bottom-left-radius:7px ;
+ border-top-left-radius: 7px;
+}
+.vid-capt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+
+}
+.paragraph{
+  /* font-size: 12px;
+  color: #5C5E62; */
+  margin-bottom: 20px;
+  text-align:center
+}
+
+.charging{
+  display: flex;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: #F4F4F4;
+}
+.charging-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.btn{ 
+  font-weight:bold;
+  padding:10px;
+  border-radius: 7px;
+  border:none;
+  margin-bottom: 40px;
+  margin-top:20px ;
+}
+.zip{
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+.zip p{
+  font-size: 24px;
+}
+.zip input{
+border: none;
+background-color: #F4F4F4;
+padding: 10px;
+margin-bottom: 10px;
+}
+.zip select{
+  border: none;
+  margin-bottom: 20px;
+}
+.price{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 0;
+font-size: 12px;
+
+}
+.est{
+  font-size:18px;
+  font-weight: bold;
+}
+.after{
+  padding-bottom: 3px;
+  text-decoration: underline;
+}
+.home{
+  font-size: 14px;
+}
+.pay-button{
+  background-color: #fff;
+ border: 3px solid black;
+width: 100%;
+padding: 10px 0;
+margin: 15px 0;
+}
