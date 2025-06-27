@@ -41,8 +41,10 @@ h1{ font-size: 40px;
 }
 
 .logo{
-    height: 24pxS;
+    height: 24px;
     width: 120px;
+    display: flex;
+    align-items: center;
 }
 
 nav{
@@ -51,6 +53,10 @@ nav{
     align-items: center;
     height: 56px;
     padding:0px 32px ;
+}
+.right-menu{
+    display: flex;
+    gap:10px;
 }
 
 main{ text-align: center;
@@ -88,6 +94,7 @@ main{ text-align: center;
 .btn-dark{
     background-color:#404040;
     color:white ;
+    padding: 5px;
 }
     
 .btn-light{
@@ -96,3 +103,11 @@ main{ text-align: center;
 
 }     
 
+@media(max-width:768px) {
+    .middle-menu{
+        display:none;
+    }
+    .btn-dark{
+        margin-bottom: 10px;
+    }
+}
